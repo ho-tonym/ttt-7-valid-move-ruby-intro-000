@@ -23,4 +23,4 @@ def valid_move? (board, index)
     puts "false"
   end
 end
-valid_move?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
+valid_move?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 1)
