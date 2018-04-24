@@ -15,7 +15,7 @@ end
 
 def valid_move? (board, index)
 
-  if (1...10) === index && position_taken?(board,index) == false
+  if (1...9) === index && position_taken?(board,index) == false
       return true
       puts "true"
   else
@@ -23,4 +23,3 @@ def valid_move? (board, index)
     puts "false"
   end
 end
-valid_move?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 1)
