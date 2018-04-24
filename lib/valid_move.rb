@@ -17,8 +17,10 @@ def valid_move? (board, index)
 
   if (1...10) === index && position_taken?(board,index) == false
       return true
+      puts "true"
   else
     return false
+    puts "false"
   end
 end
 valid_move?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
