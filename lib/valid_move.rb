@@ -16,11 +16,13 @@ end
 def valid_move? (board, index)
 
   if (0...10) === index
+    {
     if position_taken?(board,index) == false
       return true
-      puts "true"
+
+    }
   else
     return false
-    puts "false"
+
   end
 end
