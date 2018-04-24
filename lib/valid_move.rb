@@ -21,3 +21,4 @@ def valid_move? (board, index)
     return false
   end
 end
+valid_move([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
